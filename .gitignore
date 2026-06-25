@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+ 
+.stt_cache/
+
+# Models / HF cache (weights, not content)
+.cache/
+scripts/

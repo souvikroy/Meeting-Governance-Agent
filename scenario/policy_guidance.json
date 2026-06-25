@@ -1,0 +1,39 @@
+{
+  "guidance": [
+    {
+      "policy_id": 1,
+      "name": "Compensation talk is off the record",
+      "triggers_when": "The conversation involves any mention of salary, bonus, equity, severance, or pay package, including indirect references to compensation topics.",
+      "does_not_cover": "Discussions unrelated to compensation, such as general business strategy or non-compensation-related topics.",
+      "confidence_note": "Escalate for human review if there's any uncertainty about whether compensation is being discussed."
+    },
+    {
+      "policy_id": 2,
+      "name": "Never record the deal codename",
+      "triggers_when": "The codename 'Project Atlas' is mentioned in a context that ties it to the specific transaction.",
+      "does_not_cover": "Mentions of 'Project Atlas' that are unrelated to the transaction, such as in a different context or as part of a different subject.",
+      "confidence_note": "Ensure context is clear to determine if the mention is related to the transaction."
+    },
+    {
+      "policy_id": 3,
+      "name": "Flag possible legal exposure, but keep it",
+      "triggers_when": "Someone admits to or discusses actions that could imply legal or regulatory issues, such as contract breaches or regulatory non-compliance.",
+      "does_not_cover": "General discussions that do not imply legal or regulatory issues.",
+      "confidence_note": "If unsure whether a statement implies legal exposure, flag it for review."
+    },
+    {
+      "policy_id": 4,
+      "name": "Hide financial account and card numbers",
+      "triggers_when": "A bank account number, credit/debit card number, or similar financial identifier is spoken.",
+      "does_not_cover": "Non-financial identifiers like phone numbers or addresses.",
+      "confidence_note": "Ensure only financial identifiers are redacted, not other types of numbers."
+    },
+    {
+      "policy_id": 5,
+      "name": "Consent to record",
+      "triggers_when": "A participant has not consented to being recorded.",
+      "does_not_cover": "Situations where all participants have consented to recording.",
+      "confidence_note": "This policy takes precedence over all others and must be enforced first."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "COMMIT": 36,
+    "DROP": 18,
+    "REDACT": 12,
+    "CONSENT_GATE": 6,
+    "FLAG_FOR_REVIEW": 6
+  },
+  "sessions": 6
+}

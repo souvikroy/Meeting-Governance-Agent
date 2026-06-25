@@ -1,0 +1,119 @@
+[
+  {
+    "id": "u01",
+    "beat": 1,
+    "speaker": "Maya Okafor",
+    "role": "Deal lead / Partner",
+    "side": "Northwind (buyer)",
+    "consent": true,
+    "audio_file": "audio/u01_maya_okafor.mp3"
+  },
+  {
+    "id": "u02",
+    "beat": 2,
+    "speaker": "Raj Patel",
+    "role": "Diligence analyst",
+    "side": "Northwind (buyer)",
+    "consent": true,
+    "audio_file": "audio/u02_raj_patel.mp3"
+  },
+  {
+    "id": "u03",
+    "beat": 3,
+    "speaker": "Maya Okafor",
+    "role": "Deal lead / Partner",
+    "side": "Northwind (buyer)",
+    "consent": true,
+    "audio_file": "audio/u03_maya_okafor.mp3"
+  },
+  {
+    "id": "u04",
+    "beat": 4,
+    "speaker": "Dr. Lena Fischer",
+    "role": "CFO",
+    "side": "Cendara (target)",
+    "consent": true,
+    "audio_file": "audio/u04_dr_lena_fischer.mp3"
+  },
+  {
+    "id": "u05",
+    "beat": 5,
+    "speaker": "Dr. Lena Fischer",
+    "role": "CFO",
+    "side": "Cendara (target)",
+    "consent": true,
+    "audio_file": "audio/u05_dr_lena_fischer.mp3"
+  },
+  {
+    "id": "u06",
+    "beat": 5,
+    "speaker": "Dr. Lena Fischer",
+    "role": "CFO",
+    "side": "Cendara (target)",
+    "consent": true,
+    "audio_file": "audio/u06_dr_lena_fischer.mp3"
+  },
+  {
+    "id": "u07",
+    "beat": 6,
+    "speaker": "Maya Okafor",
+    "role": "Deal lead / Partner",
+    "side": "Northwind (buyer)",
+    "consent": true,
+    "audio_file": "audio/u07_maya_okafor.mp3"
+  },
+  {
+    "id": "u08",
+    "beat": 7,
+    "speaker": "Tomas Herrera",
+    "role": "Outside counsel (external)",
+    "side": "Cendara law firm",
+    "consent": false,
+    "audio_file": "audio/u08_tomas_herrera.mp3"
+  },
+  {
+    "id": "u09",
+    "beat": 8,
+    "speaker": "Dr. Lena Fischer",
+    "role": "CFO",
+    "side": "Cendara (target)",
+    "consent": true,
+    "audio_file": "audio/u09_dr_lena_fischer.mp3"
+  },
+  {
+    "id": "u10",
+    "beat": 9,
+    "speaker": "Raj Patel",
+    "role": "Diligence analyst",
+    "side": "Northwind (buyer)",
+    "consent": true,
+    "audio_file": "audio/u10_raj_patel.mp3"
+  },
+  {
+    "id": "u11",
+    "beat": 9,
+    "speaker": "Raj Patel",
+    "role": "Diligence analyst",
+    "side": "Northwind (buyer)",
+    "consent": true,
+    "audio_file": "audio/u11_raj_patel.mp3"
+  },
+  {
+    "id": "u12",
+    "beat": 10,
+    "speaker": "Maya Okafor",
+    "role": "Deal lead / Partner",
+    "side": "Northwind (buyer)",
+    "consent": true,
+    "audio_file": "audio/u12_maya_okafor.mp3"
+  },
+  {
+    "id": "u13",
+    "beat": 11,
+    "speaker": "Maya Okafor",
+    "role": "Deal lead / Partner",
+    "side": "Northwind (buyer)",
+    "consent": true,
+    "audio_file": "audio/u13_maya_okafor.mp3"
+  }
+]

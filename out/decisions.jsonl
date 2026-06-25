@@ -1,0 +1,13 @@
+{"utterance_id": "u01", "beat": 1, "speaker": "Maya Okafor", "action": "COMMIT", "policy_ids": [], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "no policy match"}
+{"utterance_id": "u02", "beat": 2, "speaker": "Raj Patel", "action": "COMMIT", "policy_ids": [], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "no policy match"}
+{"utterance_id": "u03", "beat": 3, "speaker": "Maya Okafor", "action": "DROP", "policy_ids": [2], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "policy match \u2014 contained"}
+{"utterance_id": "u04", "beat": 4, "speaker": "Dr. Lena Fischer", "action": "COMMIT", "policy_ids": [], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "no policy match"}
+{"utterance_id": "u05", "beat": 5, "speaker": "Dr. Lena Fischer", "action": "REDACT", "policy_ids": [4], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "financial identifier \u2014 redacted"}
+{"utterance_id": "u06", "beat": 5, "speaker": "Dr. Lena Fischer", "action": "REDACT", "policy_ids": [4], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "financial identifier \u2014 redacted"}
+{"utterance_id": "u07", "beat": 6, "speaker": "Maya Okafor", "action": "DROP", "policy_ids": [1], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "policy match \u2014 contained"}
+{"utterance_id": "u08", "beat": 7, "speaker": "Tomas Herrera", "action": "CONSENT_GATE", "policy_ids": [5], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "non-consented speaker \u2014 declined at gate (never transcribed)"}
+{"utterance_id": "u09", "beat": 8, "speaker": "Dr. Lena Fischer", "action": "FLAG_FOR_REVIEW", "policy_ids": [3], "confidence": 0.95, "unsure": false, "refine_iterations": 0, "reason": "possible legal exposure \u2014 flagged"}
+{"utterance_id": "u10", "beat": 9, "speaker": "Raj Patel", "action": "COMMIT", "policy_ids": [], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "no policy match"}
+{"utterance_id": "u11", "beat": 9, "speaker": "Raj Patel", "action": "COMMIT", "policy_ids": [], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "no policy match"}
+{"utterance_id": "u12", "beat": 10, "speaker": "Maya Okafor", "action": "DROP", "policy_ids": [1], "confidence": 0.4, "unsure": true, "refine_iterations": 2, "reason": "unsure about sensitive (drop-class) content \u2014 contained"}
+{"utterance_id": "u13", "beat": 11, "speaker": "Maya Okafor", "action": "COMMIT", "policy_ids": [], "confidence": 1.0, "unsure": false, "refine_iterations": 0, "reason": "no policy match"}

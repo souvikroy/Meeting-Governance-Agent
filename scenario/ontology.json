@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "Northwind Capital",
+      "type": "company",
+      "note": "buyer / acquirer",
+      "party_to_deal": true
+    },
+    {
+      "name": "Cendara Robotics",
+      "type": "company",
+      "note": "target company",
+      "party_to_deal": true
+    }
+  ],
+  "topics": [
+    {
+      "name": "compensation_discussion",
+      "note": "Covers discussions about salary, bonus, equity, severance, or pay packages; action: drop",
+      "policy_id": 1
+    },
+    {
+      "name": "deal_codename",
+      "note": "Covers mentions of the deal codename 'Project Atlas' tied to the transaction; action: drop",
+      "policy_id": 2
+    },
+    {
+      "name": "legal_exposure",
+      "note": "Covers admissions of potential legal or regulatory issues; action: flag",
+      "policy_id": 3
+    },
+    {
+      "name": "financial_identifiers",
+      "note": "Covers bank account and card numbers; action: redact",
+      "policy_id": 4
+    },
+    {
+      "name": "consent_to_record",
+      "note": "Covers consent status for recording; action: gate",
+      "policy_id": 5
+    }
+  ],
+  "_comment": "Config-controlled governance ontology. Topics regenerated from the policies via: uv run python -m governance.topics"
+}

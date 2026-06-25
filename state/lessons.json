@@ -1,0 +1,5 @@
+{
+  "lesson::4e8370df669a": "Enhance classifier training on compensation topics to improve confidence levels for more accurate decision-making.",
+  "lesson::c9e2ab5fc1ed": "For borderline meta-references to a sensitive topic without disclosed content, escalate for human review rather than committing.",
+  "lesson::222666080586": "Enhance classifier training with diverse examples of compensation discussions to improve confidence in borderline cases."
+}
